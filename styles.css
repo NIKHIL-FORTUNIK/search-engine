@@ -11,7 +11,7 @@ body {
 
 
 .logo {
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 150px;
@@ -27,7 +27,7 @@ input[type="text"] {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    width: 53%;
+    width: 63%;
     height: 30px;
     border-radius: 15px;
     border: #272424;
