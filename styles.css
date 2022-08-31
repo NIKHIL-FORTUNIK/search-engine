@@ -1,8 +1,12 @@
 body {
     background-color: #272424;
-    width:fit-content;
-    height:fit-content;
-    margin:0% 0% 0% 0%;
+    width:80%;
+    height:50%;
+    max-width:500px;
+    minwidth:400px;
+    padding:0px;
+    margin-left:-20px;
+    margin-right:20px;
 
 
 }
