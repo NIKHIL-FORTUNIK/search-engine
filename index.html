@@ -1,0 +1,46 @@
+<!DOCtype html>
+
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEBY BY FORTUNIK</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <div class="logo">
+            <img src="faxan.png" width="600px" height="150px">
+            <p></p>
+            <input type="text" placeholder="search.." name="" class="query" value="" >
+            <button  class="subby">🔍</button> 
+              
+        </div>
+        <script>
+            let query = document.querySelector('.query');
+            let subby = document.querySelector('.subby');
+
+            subby.onclick = function(){
+                let url = 'https://duckduckgo.com/?va=j&t=hb&q= '+query.value;
+                window.open(url);
+            }
+
+        </script>
+        <!--IF YOU DON'T WANNA USE JAVASCRIPT USE BELOW SYNTAX INSTEAD-->
+        <!--
+        <form action="https://duckduckgo.com/?q="> <div class="logo">
+            <img src="faxan.png" width="600px" height="150px">
+            <p></p>
+            <input type="text" placeholder="search.." name="" class="srch" id="chlo">
+            <button  class="subby">🔍</button> 
+              
+        </div>
+    </form>
+-->
+        
+        
+    </body>
+</html> 
